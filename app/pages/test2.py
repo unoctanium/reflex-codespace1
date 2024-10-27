@@ -21,12 +21,8 @@ def test2():
         ),
     )
 
-
-
-
-
 class Test3Component(rx.ComponentState):
-    text: str = "test3.1"
+    text: str = "test3.2"
     color: str = "red"
 
     def flip_color(self):
@@ -51,3 +47,5 @@ def test3():
     return rx.box(
         test3_component,
     )
+
+#check src control
