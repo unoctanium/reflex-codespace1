@@ -22,7 +22,7 @@ def test2():
     )
 
 class Test3Component(rx.ComponentState):
-    text: str = "test3.2"
+    text: str = "test3.3"
     color: str = "red"
 
     def flip_color(self):
